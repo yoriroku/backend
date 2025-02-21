@@ -1,4 +1,4 @@
-﻿package UserId;
+﻿package Userinf;
 
 public class Mail {
 }
