@@ -1,4 +1,4 @@
 ﻿package Userinf;
 
-public class Menu {
+public class Menu extends Dishes {
 }
