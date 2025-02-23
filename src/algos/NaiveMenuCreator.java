@@ -1,5 +1,6 @@
 ﻿package algos;
 
+import data.day.Meal;
 import data.day.MealDay;
 import data.day.MealType;
 import data.dish.Dish;
@@ -11,7 +12,7 @@ import java.util.List;
 
 public class NaiveMenuCreator implements IMenuCreator {
 
-    public List<MealDay> CreateMenu(User user, List<Dish> possibleDishes, Date from, Date to) {
+    public List<Meal> CreateMenu(User user, List<Dish> possibleDishes, Date from, Date to) {
         var excludeProducts = user.excludeProductTypes;
 
         var possibleDishesWOUserExclude = new ArrayList<Dish>();
