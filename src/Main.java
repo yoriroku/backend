@@ -1,3 +1,6 @@
+import data.dish.Dish;
+import data.product.Product;
+import data.product.Type;
 
 public class Main {
     public static void main(String[] args) {

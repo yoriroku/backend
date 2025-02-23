@@ -1,4 +1,6 @@
-﻿package data;
+﻿package data.day;
+
+import data.dish.Dish;
 
 import java.util.Date;
 import java.util.List;

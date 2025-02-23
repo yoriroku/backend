@@ -1,7 +1,7 @@
 ﻿package Userinf;
 
 public class Products {
-    public String potato;
+    public String potato = "pt";
     public String carrot;
     public String milk;
     public String cheese;
